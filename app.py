@@ -1,7 +1,7 @@
 import pandas as pd
 import glob
 
-data_folder = "data/*.csv"
+data_folder = "Project\data\data/*.csv"
 all_files=glob.glob(data_folder)
 for file in all_files:
     df=pd.read_csv(file)
